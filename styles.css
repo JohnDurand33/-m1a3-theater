@@ -1,0 +1,220 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 37% 42% 21%;
+    background-color: black;
+    color: white;
+    height: 75px;
+    align-content: center;
+}
+
+.company {
+    padding-left: 100px;
+    font-size: xx-large;
+}
+
+.navlink-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Arial';
+    font-size: larger;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-image-container {
+    display:grid;
+    width: 100%;
+    height: auto;
+}
+
+.main-image-container img {
+    grid-area: 1 / 1;
+    width: 100%;
+    height: auto
+}
+
+h1 {
+    grid-area: 1 / 1;
+    width: 75%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 135pt;
+    font-weight: 100;
+}
+
+h2 {
+    margin: auto;
+    margin-top: 150px;
+    width: 60%;
+    font-size: 24pt;
+    font-weight: 100;
+    line-height: 1.4;
+    text-indent: 75px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid black;
+}
+
+.smaller-font {
+    font-size: 18pt;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.feature-row {
+    display: flex;
+    justify-content:space-between;
+}
+
+.feat-wrapper{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.feature-image {
+    margin-top: 50px
+}
+
+.feature-image img {
+    padding-left: 20px;
+    height: 88%;
+    width: auto;
+}
+
+.feat-2 {
+    display:flex;
+    width: 45%;
+}
+
+.event-detail-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+    padding-top: 10px;;
+}
+
+h3 {
+    font-size: 24pt;
+    font-weight: 100;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+h4 {
+    font-size: 18pt;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+h5 {
+    font-size: 17pt;
+    font-weight: 100;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.feat-3 {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Hm; /*Without this code button font is not Roboto*/
+    width: 175px;
+    height: 75px;
+    color: white;
+    font-size: 25pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(228, 187, 63);
+    border: 1px solid black;
+}
+
+hr {
+    width: 100%;
+    margin: 0px;
+}
+
+footer {
+    display:grid;
+    height: 550px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.foot-container {
+    display: grid;
+    grid-template-columns: 33.3% 22.2% 22.2% 22.2%;
+}
+
+.map-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    padding-right: 10px;
+}
+
+.map-wrapper img{
+    width: 75%;
+    height: auto;
+    padding-bottom: 35px;
+}
+
+.foot-info-wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+    font-weight: 525;
+    margin-bottom: 40px;
+}
+
+
+#info { 
+    padding-left: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-info-wrapper a {
+    color: white;
+}
+
+
+
+
